@@ -1,0 +1,53 @@
+header {
+background-color: #080808;
+color: #f8f1f1;
+padding: 20px;
+text-align: center;
+}
+img {
+max-width: 500px;
+max-height: 500px;
+margin: 0 auto;
+display: block;
+}
+main {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 15px;
+}
+@media (max-width: 600px) {
+    main {
+        flex-direction: col;
+        padding: 1em;
+    }
+}
+@media (min-width: 1200px) {
+    main {
+        max-width: auto;
+        margin: 0 auto;
+    }
+}
+section {
+background-color: black;
+padding: 20px;
+margin-bottom: 20px;
+box-shadow: 0 0 10px black(0, 0, 0, 0.1);
+}
+h1, h2, h3 {
+    color: white;
+    margin-bottom: 10px;
+}
+p {
+    color: white;
+    font-size: large;
+}
+#bio {
+    width: 50%;
+}
+.footer{
+    background-color: black;
+    color: white
+    padding: 10px;
+    text-align: center
+}
